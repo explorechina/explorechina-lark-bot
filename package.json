@@ -1,0 +1,33 @@
+{
+  "name": "explore-china-mei-bot",
+  "version": "1.0.0",
+  "description": "AI Travel Consultant Bot for ExploreChina Holidays built on Lark Platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "lark",
+    "feishu",
+    "bot",
+    "travel",
+    "china",
+    "explore-china-holidays",
+    "ai",
+    "consultant"
+  ],
+  "author": "ExploreChina Holidays",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "uuid": "^9.0.1"
+  }
+}
